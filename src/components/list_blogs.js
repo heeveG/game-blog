@@ -1,26 +1,26 @@
 import React from 'react';
 import "../styles/list_blogs.css"
-import Blog from "./blog";
 import BlogPreview from "./blog_preview"
+
 export default class BlogList extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            blogs : [
+            blogs: [
                 {
-                    id:1,
+                    id: 1,
                     title: "First Blog",
                     preview_text: "cool blog"
 
                 },
                 {
-                    id:2,
+                    id: 2,
                     title: "Second Blog",
                     preview_text: "cool blog"
 
                 },
                 {
-                    id:3,
+                    id: 3,
                     title: "Third Blog",
                     preview_text: "cool blog"
                 }

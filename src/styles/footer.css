@@ -8,12 +8,11 @@
 
 .footer-ul{
     overflow: auto;
-
+    list-style-type: none;
 }
 
 .footer-li{
     float: left;
     margin: 20px;
-    padding: 10px;
 }
 

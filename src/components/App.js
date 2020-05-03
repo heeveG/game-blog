@@ -22,7 +22,7 @@ function App() {
                 <BrowserRouter>
                     <Switch>
                         <Route exact path="/" component={BlogList}/>
-                        <Route exact path="/roulette" component={BlogList}/>
+                        {/*    will add more as project grows     */}
                     </Switch>
                 </BrowserRouter>
 
