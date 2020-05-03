@@ -1,0 +1,22 @@
+body{
+    background-color: #22252a;
+    color: azure;
+}
+
+
+.sidebar-margin-left{
+    width: 14%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1e2227;
+    overflow-x: hidden;
+}
+
+.sidebar-margin-right{
+    margin-left: 14%;
+    min-height: 100%;
+
+}

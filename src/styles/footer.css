@@ -1,0 +1,22 @@
+.footer{
+    position: fixed;
+    /*padding: 10px;*/
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    background-color: #21272d;
+    /*background-color: aqua;*/
+}
+
+.footer-ul{
+    overflow: auto;
+    /*margin-top: 40px;*/
+
+}
+
+.footer-li{
+    float: left;
+    margin: 20px;
+    padding: 10px;
+}
+

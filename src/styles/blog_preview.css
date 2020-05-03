@@ -1,0 +1,15 @@
+
+
+.blog-preview{
+
+    padding: 5%;
+    margin: 3% 0 3% 3%;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.blog-preview:hover{
+    background-color: #1b1e23;
+    transition: 0.5s;
+}
