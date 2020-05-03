@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80b1a77e-13fc-4772-bc02-df350717ec72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/blog_preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/list_blogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/subheader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/blog_preview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="80b1a77e-13fc-4772-bc02-df350717ec72" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588443269106</updated>
       <workItem from="1588443271099" duration="11763000" />
-      <workItem from="1588503010172" duration="2629000" />
+      <workItem from="1588503010172" duration="2955000" />
     </task>
     <servers />
   </component>
