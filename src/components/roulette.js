@@ -1,8 +1,11 @@
 import React from 'react';
 import "../styles/roulette.css"
 import RouletteBoxes from "./roulette_boxes";
-import {TimelineMax, Power4} from "gsap";
+import {TimelineMax, Power4, gsap} from "gsap";
+import { CSSPlugin } from 'gsap/CSSPlugin'
 import RouletteRolls from "./roulette_previous_rolls";
+
+gsap.registerPlugin(CSSPlugin);
 
 class Roulette extends React.Component {
 
