@@ -1,0 +1,120 @@
+
+.container {
+    height: 100%;
+    /*background-color: #2B2F34;*/
+    color: #1b1e23;
+
+    /*background-image: url('/img/bg.png');*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#1a1a1a', GradientType=1);
+}
+#roulette-container {
+    margin-top: 10%;
+    margin-left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 4px;
+    /*-webkit-box-shadow: 3px 3px 50px 0 #2f333a;*/
+    background-color: #2f333a;
+
+    border-radius: 10px;
+
+}
+#roulette-container-background {
+    margin: 0;
+    /*position: absolute;*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-animation: sparkle 1500ms linear infinite;
+    -moz-animation: sparkle 1500ms linear infinite;
+    -o-animation: sparkle 1500ms linear infinite;
+    animation: sparkle 1500ms linear infinite;
+    opacity: 0.05;
+}
+#roulette-boxes{
+    height: 100px;
+}
+#roulette-boxes ul {
+    position: absolute;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+#roulette-boxes ul li {
+    list-style-type: none;
+    display: inline-block
+}
+#roulette-boxes .roulette-box {
+    width: 70px;
+    height: 70px;
+    margin-top: 13px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+#roulette-boxes-list{
+    width: 10%;
+}
+
+
+.roulette-indicator {
+    position: absolute;
+    left: 50%;
+    /*margin: 0;*/
+    margin-top: 9px;
+    width: 2px;
+    height: 82px;
+    background-color: #fff;
+    z-index: 1;
+}
+.input-section {
+    margin-top: 50px;
+}
+
+
+.roulette-box{
+
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#roulette-previous{
+    color: white;
+    margin-left: 49%;
+    font-size: 20px;
+}
+
+#roulette-previous-list {
+    margin-top: 2%;
+    list-style-type: none;
+    position: absolute;
+    left: 65%;
+    /*margin: 0;*/
+    padding: 0;
+    white-space: nowrap;
+}
+
+#roulette-previous-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.roulette-previous-item{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px ;
+    font-size: 15px;
+    text-align: center;
+    padding: 4px;
+    color:white;
+}
+
+.spin{
+    margin-left: 38%;
+    padding: 10%;
+}
+

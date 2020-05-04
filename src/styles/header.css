@@ -8,6 +8,7 @@
 .header-ul{
     list-style-type: none;
     padding: 1px;
+    color: #1e2227;
 }
 
 .header-li {
@@ -16,3 +17,14 @@
     padding-right:  5%;
 }
 
+.header-li a{
+    text-decoration: none;
+    color: #817E7E;
+    transition: 0.1s ease;
+
+}
+.header-li a:hover{
+    color: #ACAAAA;
+    transition: 0.1s ease;
+
+}

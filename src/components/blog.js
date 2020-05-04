@@ -2,10 +2,10 @@ import React from 'react';
 import "../styles/blog.css"
 
 
-function Blog() {
+function Blog({blog}) {
     return (
         <div className="blog">
-            Main
+            Blog
         </div>
     )
 }

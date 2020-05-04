@@ -2,16 +2,54 @@
 
     background-color: #1e2227;
     padding: 20px;
-    color: grey;
+
+
 
 }
 
 .subheader-ul{
     list-style-type: none;
     padding: 15px;
+    transition: 0.1s ease;
+
 }
 
-.subheader-li {
-    float: left;
-    padding-right:  5%;
+.subheader-li{
+    transition: 0.1s ease;
+
 }
+
+.subheader-li a{
+    font-weight: bold;
+    float: left;
+    margin-right: 3%;
+    /*padding-right:  5%;*/
+    color: #817E7E;
+    transition: 0.1s ease;
+
+    text-decoration: none;
+}
+
+
+
+.subheader-li a:hover{
+    color: #ACAAAA;
+    transition: 0.1s ease;
+    border-bottom: 1px solid #F74B45;
+
+
+}
+
+
+
+.subheader-li .active {
+    color: white !important;
+
+    border-bottom: 1px solid #F74B45;
+        /*border-bottom-width: 10px;*/
+}
+
+/*.nav:hover{*/
+/**/
+/*}*/
+

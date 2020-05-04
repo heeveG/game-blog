@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/list_blogs.css"
 import BlogPreview from "./blog_preview"
+import Blog from "./blog";
 
 export default class BlogList extends React.Component {
     constructor(props) {
@@ -28,6 +29,8 @@ export default class BlogList extends React.Component {
         }
     }
 
+
+
     render() {
 
 
@@ -36,7 +39,7 @@ export default class BlogList extends React.Component {
 
                 {this.state.blogs.map((blog) => (
                     <div key={blog.id}>
-                        <BlogPreview key={blog.id} blog={blog}/>
+                        <BlogPreview key={blog.id} blog={blog} />
                     </div>
                 ))}
 
