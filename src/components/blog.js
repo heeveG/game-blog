@@ -6,8 +6,6 @@ function Blog() {
     return (
         <div className="blog">
             Main
-
-
         </div>
     )
 }

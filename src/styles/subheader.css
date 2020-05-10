@@ -1,6 +1,17 @@
 .subheader{
 
     background-color: #1e2227;
-    padding: 30px;
+    padding: 20px;
+    color: grey;
 
+}
+
+.subheader-ul{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.subheader-li {
+    float: left;
+    padding-right:  5%;
 }

@@ -4,7 +4,10 @@ import "../styles/subheader.css"
 function Subheader() {
     return (
         <div className="subheader">
-            Subheader
+            <ul className="subheader-ul">
+                <li className="subheader-li">Blogs</li>
+                <li className="subheader-li">Roulette</li>
+            </ul>
         </div>
     )
 }
