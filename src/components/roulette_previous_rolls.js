@@ -13,13 +13,14 @@ class RouletteRolls extends React.Component {
             color = roll % LENGTH % 2 === 0 ? '#F74B45' : '#282828';
         }
         return <div className="roulette-previous-item" style={{backgroundColor: color}}>{nums[roll % LENGTH]}</div>
-};
+    };
 
     render() {
         const {rolls} = this.props;
         return (
             <ul id="roulette-previous-list">
                 {
+                    // @TODO add key
                     rolls.map((roll) => <li>
                         {this.getNextItem(roll)}
                     </li>)

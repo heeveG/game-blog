@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80b1a77e-13fc-4772-bc02-df350717ec72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/about_page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/roulette.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roulette.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/roulette_boxes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roulette_boxes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/roulette_previous_rolls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roulette_previous_rolls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/subheader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/subheader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blog_preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blog_preview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/roulette.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/roulette.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/subheader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/subheader.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +109,12 @@
       <workItem from="1588578163095" duration="16474000" />
       <workItem from="1588595832308" duration="976000" />
       <workItem from="1588608896557" duration="603000" />
-      <workItem from="1588616990944" duration="5015000" />
+      <workItem from="1588616990944" duration="9787000" />
+      <workItem from="1588690125128" duration="703000" />
+      <workItem from="1588855403444" duration="69000" />
+      <workItem from="1588948196263" duration="1000" />
+      <workItem from="1589108219341" duration="2201000" />
+      <workItem from="1589135591678" duration="3449000" />
     </task>
     <servers />
   </component>
@@ -132,13 +154,13 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="726" y="468" width="467" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1588454915228" />
-    <state x="624" y="252" key="run.anything.popup" timestamp="1588543471417">
+    <state x="624" y="252" key="run.anything.popup" timestamp="1589110370570">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588543471417" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1588589868196">
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1589110370570" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1589109336154">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588589868196" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1589109336154" />
   </component>
 </project>

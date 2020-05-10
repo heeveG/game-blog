@@ -19,6 +19,7 @@ class RouletteBoxes extends React.Component {
             let completedTemplate = <div className="roulette-box" id={id}
                                          style={{backgroundColor: color}}>{nums[i % LENGTH]}</div>;
 
+            // @TODO add key
             boxes.push(<li>{completedTemplate}</li>)
         }
         return boxes

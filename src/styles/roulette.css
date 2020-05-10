@@ -7,6 +7,7 @@
     /*background-image: url('/img/bg.png');*/
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#1a1a1a', GradientType=1);
 }
+
 #roulette-container {
     margin-top: 10%;
     margin-left: 0;
@@ -19,6 +20,7 @@
     border-radius: 10px;
 
 }
+
 #roulette-container-background {
     margin: 0;
     /*position: absolute;*/
@@ -31,9 +33,11 @@
     animation: sparkle 1500ms linear infinite;
     opacity: 0.05;
 }
-#roulette-boxes{
+
+#roulette-boxes {
     height: 100px;
 }
+
 #roulette-boxes ul {
     position: absolute;
     left: 50%;
@@ -41,10 +45,12 @@
     padding: 0;
     white-space: nowrap;
 }
+
 #roulette-boxes ul li {
     list-style-type: none;
     display: inline-block
 }
+
 #roulette-boxes .roulette-box {
     width: 70px;
     height: 70px;
@@ -54,7 +60,7 @@
     margin-right: 4px;
 }
 
-#roulette-boxes-list{
+#roulette-boxes-list {
     width: 10%;
 }
 
@@ -69,19 +75,21 @@
     background-color: #fff;
     z-index: 1;
 }
+
 .input-section {
     margin-top: 50px;
 }
 
 
-.roulette-box{
-
+.roulette-box {
     color: white;
     font-weight: bold;
     font-size: 15px;
 }
 
-#roulette-previous{
+#roulette-previous {
+
+
     color: white;
     margin-left: 49%;
     font-size: 20px;
@@ -97,23 +105,24 @@
     white-space: nowrap;
 }
 
-#roulette-previous-list li{
+#roulette-previous-list li {
     list-style-type: none;
     display: inline-block;
     padding-right: 10px;
 }
 
-.roulette-previous-item{
+.roulette-previous-item {
     width: 30px;
     height: 30px;
-    border-radius: 30px ;
+    border-radius: 30px;
     font-size: 15px;
     text-align: center;
     padding: 4px;
-    color:white;
+    color: white;
+
 }
 
-.spin{
+.spin {
     margin-left: 38%;
     padding: 10%;
 }

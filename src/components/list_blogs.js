@@ -30,7 +30,6 @@ export default class BlogList extends React.Component {
     }
 
 
-
     render() {
 
 
@@ -39,7 +38,7 @@ export default class BlogList extends React.Component {
 
                 {this.state.blogs.map((blog) => (
                     <div key={blog.id}>
-                        <BlogPreview key={blog.id} blog={blog} />
+                        <BlogPreview key={blog.id} blog={blog}/>
                     </div>
                 ))}
 

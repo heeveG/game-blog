@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/roulette.css"
 import RouletteBoxes from "./roulette_boxes";
 import {TimelineMax, Power4, gsap} from "gsap";
-import { CSSPlugin } from 'gsap/CSSPlugin'
+import {CSSPlugin} from 'gsap/CSSPlugin'
 import RouletteRolls from "./roulette_previous_rolls";
 
 gsap.registerPlugin(CSSPlugin);
@@ -13,7 +13,6 @@ class Roulette extends React.Component {
     constructor(props) {
         super(props);
         this.boxesList = null;
-        this.animation = null;
         this.offset = 90;
         this.state = {
             previous: [],
@@ -41,7 +40,7 @@ class Roulette extends React.Component {
             onCompleteParams: [pos]
 
         });
-        this.animation = tl.to(this.boxesList, dur, {x: this.getPositionOfWinner(pos) * -1, ease: Power4.easeOut});
+        tl.to(this.boxesList, dur, {x: this.getPositionOfWinner(pos) * -1, ease: Power4.easeOut});
     };
 
     resetAnimation = () => {
@@ -86,7 +85,7 @@ class Roulette extends React.Component {
                         <button className="btn btn-info" onClick={() => {
 
                             this.resetAnimation();
-                            this.animate(6,
+                            this.animate(7,
                                 this.getRandomNumber(this.offset, this.offset + 14),
                                 this.updatePrevious);
 
