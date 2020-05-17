@@ -1,8 +1,7 @@
 import React from 'react';
 import "../styles/blog_preview.css"
 
-
-function BlogPreview({blog}) {
+function BlogPreview({blog, renderBlog}) {
     return (
         <div className="blog-preview">
 
@@ -10,6 +9,7 @@ function BlogPreview({blog}) {
             <br/>
             <div>{blog.preview_text}</div>
             <br/>
+
         </div>
     )
 }

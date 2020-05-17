@@ -3,17 +3,30 @@ import "../styles/footer.css"
 
 function Footer() {
     return (
-        <div className="footer">
-            <ul className="footer-ul">
-                <li className="footer-li">One</li>
-                <li className="footer-li">Two</li>
-                <li className="footer-li">Three</li>
-                <li className="footer-li">Four</li>
-                <li className="footer-li">Five</li>
-                <li className="footer-li"></li>
+        <footer className="footer">
+            <div className="text-center text-md-right">
+                <ul className="list-unstyled list-inline">
+                    <li className="list-inline-item">
+                        <a className="btn-floating btn-sm rgba-white-slight mx-1"
+                           href="https://www.facebook.com/Cloudxdxd">
+                            <i className="fa fa-facebook-f fa-2x"></i>
+                        </a>
+                    </li>
+                    <li className="list-inline-item">
+                        <a className="btn-floating btn-sm rgba-white-slight mx-1"
+                           href="https://twitter.com/Nazar77438332">
+                            <i className="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li className="list-inline-item">
+                        <a className="btn-floating btn-sm rgba-white-slight mx-1" href="https://github.com/heeveG">
+                            <i className="fa fa-github fa-2x"/>
+                        </a>
+                    </li>
 
-            </ul>
-        </div>
+                </ul>
+            </div>
+        </footer>
     )
 }
 

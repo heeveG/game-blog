@@ -1,10 +1,10 @@
-body{
+body {
     background-color: #22252a;
     color: azure;
 }
 
 
-.sidebar-margin-left{
+.sidebar-margin-left {
     width: 14%;
     height: 100%;
     position: fixed;
@@ -15,7 +15,7 @@ body{
     overflow-x: hidden;
 }
 
-.sidebar-margin-right{
+.sidebar-margin-right {
     margin-left: 14%;
     min-height: 100%;
 

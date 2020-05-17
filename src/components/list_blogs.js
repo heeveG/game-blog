@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/list_blogs.css"
 import BlogPreview from "./blog_preview"
+import Blog from "./blog";
 
 export default class BlogList extends React.Component {
     constructor(props) {
@@ -27,6 +28,7 @@ export default class BlogList extends React.Component {
             ]
         }
     }
+
 
     render() {
 
