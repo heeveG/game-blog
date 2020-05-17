@@ -1,9 +1,9 @@
 import React from 'react';
-import "../styles/footer.css"
+import "../../styles/footer.css"
 
 function Footer() {
     return (
-        <footer >
+        <footer>
             <div className="text-center text-md-right footer-wrapper">
                 <ul className="list-unstyled list-inline">
 

@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
-import "../styles/subheader.css"
+import "../../styles/subheader.css"
 import {NavLink} from 'react-router-dom';
-import blog from '../img/icons8-comments-100.png';
-import roulette_img from '../img/icons8-roulette-100.png';
-import {AUTH_TOKEN} from '../constants'
+import blog from '../../img/icons8-comments-100.png';
+import roulette_img from '../../img/icons8-roulette-100.png';
+import {AUTH_TOKEN} from '../../constants'
 import {withRouter} from 'react-router-dom'
 
 class Subheader extends Component {

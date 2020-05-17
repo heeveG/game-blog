@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/roulette.css"
+import "../../styles/roulette.css"
 import RouletteBoxes from "./roulette_boxes";
 import {TimelineMax, Power4, gsap} from "gsap";
 import {CSSPlugin} from 'gsap/CSSPlugin'
@@ -25,8 +25,6 @@ class Roulette extends React.Component {
     };
 
     getPositionOfWinner = (pos) => {
-        const widthOfBox = 74;
-
         const minPos = pos * 74;
         const maxPos = minPos + 70;
 

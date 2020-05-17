@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
-import {AUTH_TOKEN} from '../constants'
+import {AUTH_TOKEN} from '../../constants'
 import {Mutation} from 'react-apollo'
 import {gql} from "apollo-boost";
-import "../styles/login.css"
+import "../../styles/login.css"
 
 const SIGNUP_MUTATION = gql`
   mutation SignupMutation($email: String!, $password: String!, $name: String!) {

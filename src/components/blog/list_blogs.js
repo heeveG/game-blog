@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/list_blogs.css"
+import "../../styles/list_blogs.css"
 import BlogPreview from "./blog_preview"
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 

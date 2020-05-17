@@ -2,27 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80b1a77e-13fc-4772-bc02-df350717ec72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list_blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list_blogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/roulette_previous_rolls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roulette_previous_rolls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/subheader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/subheader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/js/roulette-spin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/js/useScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blog_preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blog_preview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/list_blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/list_blogs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/subheader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/subheader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/info/about_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/blog_preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog/blog_preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/info/contact_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/base/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/base/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list_blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog/list_blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/not_found.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/base/not_found.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/roulette.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roulette/roulette.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/roulette_boxes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roulette/roulette_boxes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/roulette_previous_rolls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/roulette/roulette_previous_rolls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/base/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/subheader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/base/subheader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/roulette.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/roulette.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,22 +65,22 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/roulette" />
+      <recent name="$PROJECT_DIR$/src/components/blog" />
+      <recent name="$PROJECT_DIR$/src/components/info" />
+      <recent name="$PROJECT_DIR$/src/components/base" />
+      <recent name="$PROJECT_DIR$/src/components/login" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/static/js" />
-      <recent name="$PROJECT_DIR$/src/scripts" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/styles" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.header.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="header.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="header.js" working-dir="$PROJECT_DIR$/src/components">
+    <configuration name="header.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/base/header.js" working-dir="$PROJECT_DIR$/src/components">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -119,7 +118,8 @@
       <workItem from="1589108219341" duration="2201000" />
       <workItem from="1589135591678" duration="3800000" />
       <workItem from="1589707209851" duration="29680000" />
-      <workItem from="1589739021092" duration="782000" />
+      <workItem from="1589739021092" duration="2265000" />
+      <workItem from="1589741506164" duration="502000" />
     </task>
     <servers />
   </component>
