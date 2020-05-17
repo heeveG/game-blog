@@ -1,34 +1,29 @@
 import React from 'react';
 import "../styles/list_blogs.css"
 import BlogPreview from "./blog_preview"
-import Blog from "./blog";
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 export default class BlogList extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            blogs: [
-                {
-                    id: 1,
-                    title: "First Blog",
-                    preview_text: "cool blog"
-
-                },
-                {
-                    id: 2,
-                    title: "Second Blog",
-                    preview_text: "cool blog"
-
-                },
-                {
-                    id: 3,
-                    title: "Third Blog",
-                    preview_text: "cool blog"
-                }
-            ]
+            blogs: [],
         }
     }
 
+    componentDidMount() {
+
+        fetch('/blogs')
+            .then(resp => {
+                return resp.json();
+            })
+            .then(body => {
+                this.setState({
+                    blogs: body
+                })
+            })
+
+    }
 
     render() {
 
@@ -41,7 +36,6 @@ export default class BlogList extends React.Component {
                         <BlogPreview key={blog.id} blog={blog}/>
                     </div>
                 ))}
-
             </div>
         )
     }

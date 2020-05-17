@@ -10,8 +10,8 @@ import Error404 from "./not_found";
 import Roulette from "./roulette";
 import About from "./about_page";
 import Contact from "./contact_page";
-
 import '../styles/App.css';
+import Login from "./login";
 
 
 function App() {
@@ -32,6 +32,7 @@ function App() {
                         <Route exact path="/roulette" component={Roulette}/>
                         <Route exact path="/about" component={About}/>
                         <Route exact path="/contact" component={Contact}/>
+                        <Route exact path="/login" component={Login}/>
 
                         <Route component={Error404}/>
                         {/*    will add more as project grows     */}
@@ -41,7 +42,6 @@ function App() {
 
                 </div>
             </BrowserRouter>
-
         </React.Fragment>
     );
 }

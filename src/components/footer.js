@@ -3,11 +3,12 @@ import "../styles/footer.css"
 
 function Footer() {
     return (
-        <footer className="footer">
-            <div className="text-center text-md-right">
+        <footer >
+            <div className="text-center text-md-right footer-wrapper">
                 <ul className="list-unstyled list-inline">
+
                     <li className="list-inline-item">
-                        <a className="btn-floating btn-sm rgba-white-slight mx-1"
+                        <a className=""
                            href="https://www.facebook.com/Cloudxdxd">
                             <i className="fa fa-facebook-f fa-2x"></i>
                         </a>
@@ -25,6 +26,7 @@ function Footer() {
                     </li>
 
                 </ul>
+
             </div>
         </footer>
     )

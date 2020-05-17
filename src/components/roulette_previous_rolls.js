@@ -8,7 +8,7 @@ class RouletteRolls extends React.Component {
 
     getNextItem = (roll) => {
         let color;
-        if (roll % LENGTH === 0) color = '#32CD32';
+        if (roll % LENGTH === 0) color = '#3eb240';
         else {
             color = roll % LENGTH % 2 === 0 ? '#F74B45' : '#282828';
         }
