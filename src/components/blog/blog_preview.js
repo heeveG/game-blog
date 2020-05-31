@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/blog_preview.css"
+import "../../styles/blog_preview.css"
 
 function BlogPreview({blog, renderBlog}) {
     return (

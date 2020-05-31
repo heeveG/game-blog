@@ -60,3 +60,42 @@
     filter: invert(0.4);
 
 }
+
+.auth-button {
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    float: right;
+    width: 100px;
+    height: 40px;
+    margin: 25px;
+}
+
+.auth-button:hover, .auth-button:visited, .auth-button:link, .auth-button:active {
+    color: white;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+
+.login {
+    background-color: #3eb240;
+
+}
+
+.login:hover {
+
+    background-color: #45c647;
+}
+
+.logout {
+    background-color: #3c434e;
+
+}
+
+.logout:hover {
+    background-color: #474f5c;
+
+}

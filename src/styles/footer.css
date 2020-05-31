@@ -1,25 +1,31 @@
-.footer {
+footer {
     position: fixed;
     width: 100%;
     bottom: 0;
     background-color: #21272d;
 }
 
-.footer ul {
+.footer-wrapper{
+    width: 85%;
+}
+
+footer ul {
     list-style-type: none;
+    margin: 10px;
+    text-align: right;
 }
 
-.footer li {
-    margin: 5px;
-    float: left;
-    padding: 15px;
+footer li {
+    margin: 5px 5px 5px 30px;
+    padding: 10px;
 }
 
-.footer a {
+footer a {
     color: #FFFFFF;
 }
 
-.footer a:hover {
+footer a:hover {
     color: #817E7E;
 }
+
 
