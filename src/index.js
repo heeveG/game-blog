@@ -10,10 +10,16 @@ import {createHttpLink} from 'apollo-link-http'
 import {InMemoryCache} from 'apollo-cache-inmemory'
 import {setContext} from 'apollo-link-context'
 import {AUTH_TOKEN} from './constants'
+import {onError} from "apollo-link-error";
 
 const httpLink = createHttpLink({
     uri: 'http://localhost:4000',
 })
+
+
+const errorLink = onError(({response, operation}) => {
+    response.errors = null;
+});
 
 const authLink = setContext((_, {headers}) => {
     const token = localStorage.getItem(AUTH_TOKEN)
@@ -24,11 +30,8 @@ const authLink = setContext((_, {headers}) => {
         },
     }
 });
-
-
-
 const client = new ApolloClient({
-    link: authLink.concat(httpLink),
+    link: errorLink.concat(authLink.concat(httpLink)),
     cache: new InMemoryCache(),
 });
 

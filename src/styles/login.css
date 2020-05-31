@@ -10,13 +10,12 @@
 }
 
 .send-button {
-    background: #dc433d;
+    background: #848484;
     width: 100%;
     font-weight: 600;
     color: #fff;
     padding: 8px 25px;
 }
-
 
 .my-input {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -51,3 +50,7 @@
 }
 
 
+.user-error{
+    padding: 10px;
+    font-size: 15px;
+}

@@ -1,0 +1,32 @@
+.forum {
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 40px 0 40px 15%;
+}
+
+.forum a {
+    /*padding: 30px;*/
+    text-decoration: none;
+    color: white;
+}
+
+.forum table {
+    border-collapse: collapse;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.06),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+}
+
+
+.forum table, td, th {
+    width: 83%;
+
+    padding: 20px;
+
+    border: 1px solid #313840;
+}
+
+.forum table td {
+    font-size: 16px;
+}

@@ -27,6 +27,7 @@ class Login extends Component {
         email: '',
         password: '',
         name: '',
+        error: false,
     };
 
     render() {
@@ -58,6 +59,8 @@ class Login extends Component {
                                    placeholder={login ? "Your password" : "Choose a safe password"}
                                    className="form-control my-input"/>
                         </div>
+                        {this.state.error && login && (<div className="user-error">No such user</div>)}
+
                         <Mutation
                             mutation={login ? LOGIN_MUTATION : SIGNUP_MUTATION}
                             variables={{email, password, name}}
@@ -72,6 +75,7 @@ class Login extends Component {
                                 </div>
                             )}
                         </Mutation>
+
                         <div className="col-md-12 ">
                             <div className="login-or">
                                 <hr className="hr-or"/>
@@ -95,9 +99,16 @@ class Login extends Component {
     }
 
     _confirm = async data => {
-        const {token} = this.state.login ? data.login : data.signup;
-        this._saveUserData(token);
-        this.props.history.push(`/`)
+        if (data.login || data.signup) {
+            const {token} = this.state.login ? data.login : data.signup;
+            this._saveUserData(token);
+            this.props.history.push(`/`)
+            this.state.error = false;
+        }
+        else {
+            this.state.error = true;
+            this.forceUpdate()
+        }
     };
 
     _saveUserData = token => {
