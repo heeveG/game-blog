@@ -1,0 +1,31 @@
+.list-forums {
+    font-size: 15px;
+    display: flex;
+    padding: 30px 100px 30px 100px;
+
+}
+
+
+.csgo-forums {
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dota2-forums {
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.forum-logo {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.list-forums a{
+    text-decoration: none;
+    color: white;
+}

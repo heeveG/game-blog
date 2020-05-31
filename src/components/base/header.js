@@ -9,7 +9,6 @@ function Header() {
             <ul className=" navbar-nav mr-auto">
                 <li className=" nav-item "><Link exact="true" to="/">Home</Link></li>
                 <li className=" nav-item "><Link exact="true" to="/about">About </Link></li>
-                <li className=" nav-item "><Link exact="true" to="/contact">Contact</Link></li>
             </ul>
         </div>
     )

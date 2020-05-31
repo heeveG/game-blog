@@ -70,7 +70,7 @@
     float: right;
     width: 100px;
     height: 40px;
-    margin: 25px;
+    margin: 25px ;
 }
 
 .auth-button:hover, .auth-button:visited, .auth-button:link, .auth-button:active {

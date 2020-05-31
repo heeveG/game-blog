@@ -1,23 +1,168 @@
 {
-  "blogs": [
+  "csgo": [
     {
       "id": 1,
-      "title": "First Blog",
-      "preview_text": "cool2 blog",
-      "full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "name": "csgo",
+      "title": "Counter-Strike Global Offensive",
+      "preview_text": "Discussions and questions regarding Counter-Strike Global Offensive",
+      "forums": [
+        {
+          "forum_id": 1,
+          "author": "Nazar",
+          "date": "26-05-2020",
+          "title": "s0mple",
+          "text": " clips.twitch.tv/VastDarlingChamoisJebait..\n\n??????"},
+        {
+          "forum_id": 2,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "Group A",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        },
+        {
+          "forum_id": 3,
+          "author": "Nazar",
+          "date": "26-05-2020",
+          "title": "Group D",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        },
+        {
+          "forum_id": 4,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "Group A",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        },{
+          "forum_id": 5,
+          "author": "Nazar",
+          "date": "26-05-2020",
+          "title": "Group D",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        },
+        {
+          "forum_id": 6,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "Group A",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Second Blog",
-      "preview_text": "cool blog",
-      "full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "name": "cs",
+      "title": "Counter-Strike 1.6",
+      "preview_text": "Discussions and questions regarding Counter-Strike 1.6",
+      "forums": [
+        {
+          "forum_id": 1,
+          "author": "Nazar",
+          "date": "26-05-2020",
 
+          "title": "s0mple",
+          "text": " clips.twitch.tv/VastDarlingChamoisJebait..\n\n??????"
+        },
+        {
+          "forum_id": 2,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "Navi",
+          "text": "I have seen better teamwork on an FPL match, what have they even been doing the last few month LOL this line up lasted one event"
+        },
+        {
+          "forum_id": 3,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "Budget HenryG",
+          "text": "Aka Hugo Byron Is trash, fire this guy already."
+        }
+      ]
     },
     {
       "id": 3,
-      "title": "Third Blog",
-      "preview_text": "cool blog",
-      "full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "name": "css",
+      "title": "Counter-Strike Source",
+      "preview_text": "Discussions and questions regarding Counter-Strike Source",
+      "forums": [
+        {
+          "forum_id": 1,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "Group D",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        },
+        {
+          "forum_id": 2,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "CSGO vs Source",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        },{
+          "forum_id": 3,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "Source",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        }
+      ]
+    }
+  ],
+  "dota": [
+    {
+      "id": 1,
+      "name": "dota",
+      "title": "Dota2",
+      "preview_text": "Discussions and questions regarding Dota 2",
+      "forums": [
+        {
+          "forum_id": 1,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "Vitality",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        },
+        {
+          "forum_id": 2,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "Group D",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "dota_betting",
+      "title": "Betting",
+      "preview_text": "Discussions and questions regarding Dota 2 Betting",
+      "forums": [
+        {
+          "forum_id": 1,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "NIP",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        },
+        {
+          "forum_id": 2,
+          "author": "Nazar",
+          "date": "26-05-2020",
+
+          "title": "$20",
+          "text": "Vitality vs NIP\nDust2 16-9 vitality\nVertigo 16-19 nip\nOverpass 22-20 vitality\n\nVitality vs ence\nD2 16-4 vitality\nOverpass 16-10 vitality\n\nVitality vs navi\nVertigo 16-1 vitality\nD2 16-14 navi\nMirage 16-14 vitality"
+        }
+      ]
     }
   ]
 }

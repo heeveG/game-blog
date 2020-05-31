@@ -14,12 +14,12 @@ class Subheader extends Component {
         return (
             <div className="subheader  navbar-collapse" id="navbarSupportedContent">
                 <ul className=" navbar-nav mr-auto">
-                    <li><NavLink className="nav" exact to="/blog"><img className="subheader-logo"
-                                                                       src={blog} alt="Logo"/>BLOGS</NavLink>
+                    <li><NavLink className="nav" exact to="/"><img className="subheader-logo"
+                                                                       src={blog} alt="Logo"/>FORUMS</NavLink>
                     </li>
 
 
-                    <li><NavLink className="nav" to="/roulette"><img className="subheader-logo"
+                    <li><NavLink className="nav" exact to="/roulette"><img className="subheader-logo"
                                                                      src={roulette_img} alt="Logo"/>ROULETTE
                     </NavLink></li>
 
