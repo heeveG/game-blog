@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "apollo-link-ws": "^1.0.20",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "react-load-script": "0.0.6",
     "react-router-dom": "^5.2.0",
     "subscriptions-transport-ws": "^0.9.5"
